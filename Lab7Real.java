@@ -19,6 +19,8 @@ import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 
+//  GitHub link: https://github.com/wembythegoat/Lab701.git
+
 /**
  *
  * @author 2472557
@@ -55,10 +57,11 @@ public class Lab7Real extends Application {
 
         Scene scene = new Scene(pane, 600, 600);
         stage.setScene(scene);
-        stage.setTitle("Yep");
+        stage.setTitle("Path animation");
         stage.show();
     }
 
 }
+
 
 
