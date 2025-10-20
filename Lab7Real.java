@@ -22,7 +22,16 @@ public class Lab7Real extends Application {
     
     @Override
     public void start(Stage stage) {
+        GridPane grid = new GridPane();
+        grid.setVgap(10);
+        grid.setHgap(10);
+        grid.setPadding(new Insets(20, 20, 20, 20));
         
+        Scene scene = new Scene(grid, 600, 400);
+        stage.setScene(scene);
+        stage.setTitle("Yep");
+        stage.show();
     }
     
 }
+
